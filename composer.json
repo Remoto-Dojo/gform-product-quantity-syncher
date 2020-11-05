@@ -1,0 +1,28 @@
+{
+    "name": "remotodojo/gform-product-inventory-syncher",
+    "description": "A syncher service for Gravity Forms Product with Gravity Forms Quantity Limits as inventory.",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "RemotoDojo",
+            "email": "support@remotodojo.com",
+            "homepage": "https://remotodojo.com"
+        }
+    ],
+    "support": {
+      "issues": "https://remotodojo.com"
+    },
+    "license": "GPL-2.0-or-later",
+    "keywords": [
+        "wordpress",
+        "plugin",
+        "scaffold"
+    ],
+    "require": {},
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "RemotoDojo\\GFormProductInventorySyncher\\": "src/"
+        }
+    }
+}
