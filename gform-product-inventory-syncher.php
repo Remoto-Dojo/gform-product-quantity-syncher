@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Gravity Forms Product And Quantity Syncher
- * Plugin URI: https://github.com/Remoto-Dojo/gform-product-inventory-syncher
+ * Plugin URI: https://github.com/Remoto-Dojo/gform-product-quantity-syncher
  * Description: A syncher service for Gravity Forms Product with Gravity Forms Quantity Limits as inventory.
  * Author: RemotoDojo
  * Author URI: https://remotodojo.com
@@ -23,7 +23,7 @@ if ( ! class_exists( 'RemotoDojo\GFormProductInventorySyncher\Plugin' ) ) {
 	}
 }
 
-// add_action( 'plugins_loaded', [ new Plugin(), 'run' ] );
+//add_action( 'plugins_loaded', [ new Plugin(), 'run' ] );
 
-// If Gravity Forms is loaded, bootstrap the Live Population Add-On.
+// If Gravity Forms is loaded, bootstrap our plugin service.
 add_action( 'gform_loaded', [ new Plugin(), 'run' ], 5 );

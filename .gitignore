@@ -1,1 +1,4 @@
+*.md
+*.lock
+.idea
 /vendor/
